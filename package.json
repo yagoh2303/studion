@@ -1,0 +1,27 @@
+{
+  "name": "studion",
+  "version": "0.0.1",
+  "description": "home page for studion",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yagoh2303/studion.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Yago Henrique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yagoh2303/studion/issues"
+  },
+  "homepage": "https://github.com/yagoh2303/studion#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
