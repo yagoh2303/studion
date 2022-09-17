@@ -9,6 +9,7 @@
 </head>
 <body>
     <nav class="navbar">   
+    <div class="container navbar_container">
       <h1 id="navlogo">
         Studi<span class="yellow">on</span>
         <span class="subtitle">Eventos</span> 
@@ -20,6 +21,7 @@
             <li><a href="#depoimentos">Depoimento</a></li>
             <li><a href="#contatos">Contatos</a></li>
         </ul>
+     </div>
      </nav>
 
      <header>
@@ -38,21 +40,21 @@
      </header>
 
      <main>
-        <section>
-            <ul>
-                <li><h3>+ de 500 </h3>eventos realizados</li>
-                <li><h3>+ de 1.000.000 </h3> de ingressos vendidos</li>
-                <li><h3>+ de 300</h3> empresas atendidas</li>
+        <section id="counter">
+            <ul class="container class_container">
+                <li><h3>+ de 500 <small>eventos realizados</small></h3></li>
+                <li><h3>+ de 1.000.000  <small>de ingressos vendidos</small></h3></li>
+                <li><h3>+ de 300 <small> empresas atendidas</small></h3></li>
             </ul>
         </section>
 
-        <section>
-            <div>
-                <img src="./img/institutional.jpg"/>
+        <section class="container institutional">
+            <img src="./img/institutional.jpg"/ alt="Studion institutional image" class="institutional_img">
+            <div class="institutional_copy">
                 <h6>Fazemos seu evento acontecer</h6>
                 <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias odit eveniet, debitis porro quos deserunt, ullam provident esse aperiam veritatis magni rei</h4>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, doloremque architecto? Ratione alias corrupti quae, laudantium tempore, nobis dicta odio fugit, aperiam quis labore numquam exercitationem dolorem nostrum cum magnam.</p>
-                <button>Saiba mais</button>
+                <button class="btn btn--institutional">Saiba mais</button>
             </div>
         </section>
 
