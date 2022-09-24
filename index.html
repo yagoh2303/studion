@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/432fc4e383.js" crossorigin="anonymous"></script>
+
     <title>Studion</title>
 </head>
 <body>
     <nav class="navbar">   
     <div class="container navbar_container">
-      <h1 id="navlogo">
+      <h1 class="navlogo">
         Studi<span class="yellow">on</span>
         <span class="subtitle">Eventos</span> 
     </h1>
@@ -69,20 +71,43 @@
         </section>
      </main>
 
-     <footer>
-        <h2>Studi<span class="yellow">on</span> <span>Eventos</span> </h2>
-        <form>
-            <label>receba news e promoções</label>
-            <input type="email" placeholder="email" />
-            <button type="submit">Enviar</button>
-        </form>
-        <ul>
-            <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
-            <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
-            <li><a href="https://youtube.com" target="_blank">Youtube</a></li>
-        </ul>
+     <footer class="footer">
+        <div class="container footer_container">
+            
+            <h2 class="navlogo">
+                Studi<span class="yellow">on</span>
+                <br> <span class="subtitle">Eventos</span>
+            </h2>
+            
+            <form class="footer_form">
+                <label for="email">receba news e promoções</label>
+
+                <fieldset>
+                    <input id="email" type="email" placeholder="email" />
+                    <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+                </fieldset>
+                
+            </form>
+            
+            
+            <ul class="footer_social">
+                <li><a href="https://facebook.com" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li><a href="https://twitter.com" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                </a></li>
+                <li><a href="https://youtube.com" target="_blank">
+                    <i class="fa-solid fa-circle-play"></i>
+                </a></li>
+            </ul>
+        </div>
+        
         <hr/>
-        <p><small>Studi<span>ON</span> - Todos os direitos reservados</small></p>
-     </footer>
+        <p><small>Studi<span class="yellow">ON</span> - Todos os direitos reservados</small></p>
+        
+    </footer>
+
 </body>
 </html>
