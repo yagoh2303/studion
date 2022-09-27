@@ -368,3 +368,7 @@ li {
 hr {
     border-color: #fff3;
 }
+
+.contact li {
+    display:block;
+}
