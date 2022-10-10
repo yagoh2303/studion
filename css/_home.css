@@ -1,0 +1,108 @@
+
+#counter {
+    background-color: var(--color-principal);
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+
+.class_container {
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    place-items: center;
+    padding: 4.375rem 1rem;
+   
+}
+
+.class_container h3 {
+    font-size: 2rem;
+}
+
+.class_container h3 small {
+    display:block;
+    font-size: 1,25rem;
+    margin-top: 0.5rem;
+}
+
+.institutional {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3.125rem;
+    align-items: center;
+    
+}
+.institutional_img {
+    max-width:570px;
+}
+
+.institutional_copy {
+    padding: 1.875rem 0;
+}
+
+.institutional_copy h6 {
+    font-size: 0.875rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing:4px;
+    margin:0;
+}
+
+.institutional_copy h4 {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+
+}
+
+.institutional_copy p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.06rem;
+    line-height: 1.86rem;
+    margin-bottom:2.5rem;
+    
+}
+
+.quote {
+    
+    background-image: url(../img/parallax.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.quote_container {
+    display:grid;
+    align-items: center;
+    justify-items: end;
+    min-height: 80vh;
+}
+
+.quote_copy {
+    background-color: #fff;
+    padding: 5.7rem 4.3rem; 
+    width: 610px;
+    height: 466px;
+
+}
+
+.quote_copy h6 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 23px;
+    font-weight: 400;
+    text-align: justify;
+    margin:0;
+    
+}
+
+.quote_copy h2 {
+    font-size:5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin:0;
+    margin-top:20px;
+
+}

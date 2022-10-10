@@ -1,0 +1,38 @@
+
+.btn {
+    padding: 20px 40px;
+    border:2px solid #fff;
+    border-radius: 50px;
+    color: var(--color-principal);
+    background: unset;
+    text-transform: uppercase;
+    font-size:1rem;
+    font-weight: 700;
+    transition: 0.5s all ease;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus,
+.btn--institutional,
+.btn_contact {
+    border-color: var(--color-principal);
+    background-color: var(--color-principal);
+    color:#fff;
+
+}
+
+
+.btn--institutional:hover,
+.btn_contact:hover {
+    color: var(--color-principal);
+    background-color: unset;
+}
+
+.btn--quote {
+    color: #333;
+    background-color: unset;
+    border-color: #333;
+}
+
+
