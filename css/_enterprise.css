@@ -18,8 +18,25 @@
     padding-left: 40px;
 }
 
-.logo {
+.counter_logos {
     background-color: var(--color-principal);
-    padding-left: 200px;
-    
+    text-align: center;
+    margin: auto;
+    padding: 70px 0 100px 0;
+}
+
+.enterprise_video {
+    text-align: center;
+    margin:0;
+    padding: 80px 0;
+    position: relative;
+}
+
+.enterprise_video i {
+    font-size: 42px;
+    color: #fff;
+    position: absolute;
+    left: 48.5%;
+    top: 48%;
+    cursor: pointer;
 }
