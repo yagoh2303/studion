@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/432fc4e383.js" crossorigin="anonymous"></script>
 
@@ -28,12 +30,32 @@
      </nav>
 
      <header>
-        <div id="slider">
+        <div class="slider">
             <div class="slide">
-                
+                <img class="slide_background-image" src="./img/banner.jpg">
                 <div class="slide_copy">
                     <h6><span class="yellow">Próximo Evento</span> - Dia 25 de setembro às 19h.</h6>
                     <h2><span class="yellow">Creative</span> <br>Minds</h2>
+                    <button class="btn btn-slide">Saiba mais</button>
+
+                </div>
+                
+            </div>
+            <div class="slide">
+                <img class="slide_background-image" src="./img/banner2.jpg">
+                <div class="slide_copy">
+                    <h6><span class="yellow">Próximo Evento</span> - Dia 25 de setembro às 19h.</h6>
+                    <h2><span class="yellow">FEST</span> <br>FORWARDS</h2>
+                    <button class="btn btn-slide">Saiba mais</button>
+
+                </div>
+                
+            </div>
+            <div class="slide">
+                <img class="slide_background-image" src="./img/banner3.jpg">
+                <div class="slide_copy">
+                    <h6><span class="yellow">Próximo Evento</span> - Dia 25 de setembro às 19h.</h6>
+                    <h2><span class="yellow">SHOW</span> <br>EVENT</h2>
                     <button class="btn btn-slide">Saiba mais</button>
 
                 </div>
@@ -85,7 +107,7 @@
 
                 <fieldset>
                     <input id="email" type="email" placeholder="email" />
-                    <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+                    <button class="form-submit" type="submit"><i class="fa-solid fa-paper-plane"></i></button>
                 </fieldset>
                 
             </form>
@@ -109,6 +131,10 @@
         <p><small>Studi<span class="yellow">ON</span> - Todos os direitos reservados</small></p>
         
     </footer>
-
+    
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src=./js/script.js></script>
 </body>
 </html>
