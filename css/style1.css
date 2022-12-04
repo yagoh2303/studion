@@ -1,0 +1,15 @@
+.slider {
+    flex: 1;
+    overflow: hidden;
+
+}
+
+.slide {
+    height: 100%;
+    display: flex;
+}
+
+.slider-item {
+    width: 100vw;
+    height: inherit;
+}
